@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <style>
+        body {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        li {
+            list-style-type: none;
+        }
+        a {
+            text-decoration-line: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact</h2>
+    <ul>
+        <li>Name: Junayed Akbor</li>
+        <li>Email: <a href="mailto:junayedakbor@gmail.com">junayedakbor@gmail.com</a></li>
+        <li>Telephone: 00000000000</li>
+        <li>Website: <a href="#">junayedakbor.com</a></li>
+    </ul>
+
+    <h2>User Message</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>Frist Name:</td>
+                <td><input type="text" maxlenght="10" minlength="3" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" maxlength="10" minlength="3" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" placeholder="example@email.com" required></td>
+            </tr>
+        </table>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="textarea" cols="30" rows="5" placeholder="Type Your Message..."></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
