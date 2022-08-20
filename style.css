@@ -65,7 +65,12 @@ footer {
 
 @media screen and (max-width: 544px) {
     .head img {
-        width: 200px;
+        width: 160px;
     }
+    .table li .ability-title {
+        font-size: 15px;
+        width: 10%;
+    }
+    
 }
 
