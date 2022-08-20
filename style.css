@@ -9,6 +9,9 @@ body {
     width: 350px;
     border-radius: 100%;
 }
+.into-text em {
+    font-size: 20px;
+}
 
 a {
     color: #325288;
@@ -70,6 +73,18 @@ footer {
     .table li .ability-title {
         font-size: 10px;
         width: 10%;
+    }
+    .table li .ability-score {
+        font-size: 10px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .into-text h1 {
+        font-size: 18px;
+    }
+    .into-text em {
+        font-size: 14px;
     }
     
 }
