@@ -1,11 +1,22 @@
 body {
     margin-top: 30px;
+    background-color: #EFFFFD;
+    margin: 0;
+    padding: 0;
 }
+
 a {
-    font-size: 20px;
-    color: red;
-    margin-left: 40px;
+    color: #325288;
+    margin-left: 20px;
     text-decoration: none;
+}
+a:hover {
+    color: #003638;
+    font-size: 20px;
+}
+
+a img {
+    width: 25px;
 }
 
 p {
@@ -14,4 +25,22 @@ p {
 
 li {
     font-size: 16px;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: gray;
+    width: 100%
+}
+
+h1, h2, h3, h4 {
+    color: #364F6B;
+}
+
+footer {
+    width: 100%;
+    background-color: #A5C9CA;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
