@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+.head img {
+    width: 350px;
+    border-radius: 50%;
+}
+
 a {
     color: #325288;
     margin-left: 20px;
@@ -17,11 +22,6 @@ a:hover {
 
 a img {
     width: 25px;
-}
-
-.head img {
-    width: 350px;
-    border-radius: 50%;
 }
 
 p {
@@ -49,3 +49,23 @@ footer {
     padding-top: 5px;
     padding-bottom: 30px;
 }
+
+.table ul {
+    list-style: none;
+    margin: 0;
+}
+.table li {
+    display: list-item;
+}
+.table li .ability-title {
+    display: inline-block;
+    width: 20%;
+}
+
+
+@media screen and (max-width: 544px) {
+    .head img {
+        width: 200px;
+    }
+}
+
