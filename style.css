@@ -89,6 +89,10 @@ footer {
 
 
 @media screen and (max-width: 576px) {
+    .container-fluid {
+        display: flex;
+        align-items: center;
+    }
     .work-name {
         font-size: 1rem;
     }
