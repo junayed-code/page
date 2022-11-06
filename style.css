@@ -1,13 +1,19 @@
 body {
-    margin-top: 30px;
     background-color: #EFFFFD;
     margin: 0;
     padding: 0;
 }
+.container-fluid {
+    padding: 56px 40px;
+}
 
 .head img {
-    width: 350px;
+    width: 300px;
     border-radius: 100%;
+}
+.head h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
 }
 .into-text em {
     font-size: 20px;
